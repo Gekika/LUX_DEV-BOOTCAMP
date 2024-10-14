@@ -1,3 +1,8 @@
+
+# TASK ONE
+# Write a Python program to check whether a string is a palindrome or not using a stack.
+
+# I declare  a stack to help me check for palindrome
 class Stack:
     def __init__(self):
         self.items = []
@@ -25,9 +30,16 @@ def is_palindrome(string):
 
     return reversed_string == string
 
-# Example usage
+
+#  I test if my function is doing
 string = input("Enter a string: ")
 if is_palindrome(string):
     print(f"{string} is a palindrome.")
 else:
     print(f"{string} is not a palindrome.")
+
+
+
+
+# TASK TWO 
+# Explain the concept of list comprehension in Python with at least three examples.
